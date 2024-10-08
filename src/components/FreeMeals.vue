@@ -1,18 +1,18 @@
 <script setup>
- import {BuildingOfficeIcon} from '@heroicons/vue/24/solid'
+ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 </script>
 
 
 <template>
- <div class="bg-orange-300 content-center h-full w-full py-12">
+ <div class="content-center h-full w-full py-12">
  <div class="icon-heroincon_center">
-  <BuildingOfficeIcon class="size-12 md:size-20"/>
+  <!-- <FontAwesomeIcon :icon="fa-utensils"/> -->
  </div>
   <h3 class="text-xl font-bold text-black  text-center pb-9 lg:text-2xl">
-  Great Location
+  Free Meals
   </h3>
   <p class="text-center px-6 font-semibold">
-   Nestled between many famous sites.
+   Enjoy Continental Breakfast and Lunch.
   </p>
  </div>
 </template>

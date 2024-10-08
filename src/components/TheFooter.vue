@@ -2,7 +2,7 @@
         <div class="footer">
         <div class="flex">
           <div class="flex-auto">
-            <p class="text-center p-2.5 font-semibold text-xl text-neutral-500">
+            <p class="text-center p-2.5 font-semibold text-xl text-black">
               Brightling Hotel &copy; {{ currentYear }}, All Rights
               Reserved
             </p>

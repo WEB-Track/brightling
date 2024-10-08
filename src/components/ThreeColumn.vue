@@ -1,21 +1,23 @@
 <script setup>
 import GreatLoction from '@/components/GreatLoction.vue'
+import FitnessRoom from '@/components/FitnessRoom.vue'
+import FreeMeals from '@/components/FreeMeals.vue';
 
-export default {
- components: { GreatLoction }
-}
+// export default {
+//  components: { GreatLoction }
+// }
 </script>
 
 <template>
  <div class="flex flex-col md:flex-row">
-  <div class="grow min-h-32 h-60 md:h-80 bg-red-400">
-   <ThreeColumnLeft/>
+  <div class="w-full min-h-32 h-60 md:h-80">
+   <GreatLoction/>
   </div>
-  <div class="grow min-h-32 h-60 md:h-80 bg-red-900">
-   <ThreeColumnMiddle/>
+  <div class="w-full min-h-32 h-60 md:h-80">
+   <FreeMeals/>
   </div>
-  <div class="grow min-h-32 h-60 md:h-80 bg-red-500">
-   <ThreeColumnRight/>
+  <div class="w-full min-h-32 h-60 md:h-80">
+   <FitnessRoom/>
   </div>
  </div>
 </template>
