@@ -10,10 +10,10 @@ export default {
 <template>
  <div class="flex flex-col md:flex-row">
   <div class="min-h-32 w-full">
-   <HomePhotoOne/>
+   <RouterLink :to="twocol-left"/>
   </div>
   <div class="min-h-32 w-full">
-   <TheHistory/>
+   <RouterLink :to="twocol-right"/>
   </div>
  </div>
 </template>
