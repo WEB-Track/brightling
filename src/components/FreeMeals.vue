@@ -4,7 +4,7 @@
 
 
 <template>
- <div class="content-center h-full w-full py-12">
+ <div class="content-center h-full w-full py-12" id="freemeals">
  <div class="icon-heroincon_center">
   <!-- <FontAwesomeIcon :icon="fa-utensils"/> -->
  </div>

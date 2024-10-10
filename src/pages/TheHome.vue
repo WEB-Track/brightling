@@ -15,7 +15,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <div class="home">
+  <div class="home" id="home">
     <TheHero />
     <RouterView :to="twocol"></RouterView>
     <RouterView :to="threecol"></RouterView>

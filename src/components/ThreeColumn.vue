@@ -18,7 +18,7 @@ import FreeMeals from '@/components/FreeMeals.vue';
 // </script>
 
 <template>
- <div class="flex flex-col md:flex-row">
+ <div class="flex flex-col md:flex-row" id="threecolumn">
   <div class="w-full min-h-32 h-60 md:h-80">
    <RouterView :to="threecol-left"/>
   </div>

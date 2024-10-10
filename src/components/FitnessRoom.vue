@@ -4,7 +4,7 @@
 
 
 <template>
- <div class="bg-orange-300 content-center h-full w-full py-12">
+ <div class="bg-orange-300 content-center h-full w-full py-12" id="fitnessroom">
  <div class="icon-heroincon_center">
   <BuildingOfficeIcon class="size-10 md:size-20"/>
  </div>

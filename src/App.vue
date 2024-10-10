@@ -8,7 +8,7 @@ export default{
 </script>
 
 <template>
-  <div class="app-main">
+  <div class="app-main" id="app">
     <TheMenu></TheMenu>
     <RouterView></RouterView>
     <TheFooter></TheFooter>

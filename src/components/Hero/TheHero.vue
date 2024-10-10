@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="hero w-full justify-self-center" id="hero">
+  <section class="hero w-full justify-self-center" id="thehero">
     <div class="flex">
       <div class="flex-auto p-0 m-0">
         <div class="w-screen hero--jumbotron bg-cover bg-no-repeat bg-center rounded-none border-none">
