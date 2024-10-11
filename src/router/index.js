@@ -16,7 +16,6 @@ import ThreeColLeft from '@/components/GreatLoction.vue'
 import ThreeColMiddle from '@/components/FreeMeals.vue'
 import ThreeColRight from '@/components/FitnessRoom.vue'
 
-
 const routes = [
   {
     path: '/:id', name: 'Home', component: TheHome,
