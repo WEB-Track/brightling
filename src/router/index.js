@@ -19,23 +19,23 @@ import ThreeColRight from '@/components/FitnessRoom.vue'
 const routes = [
   {
     path: '/:id', name: 'Home', component: TheHome,
-    children: [
-      {
-        paht: "twocol", name: TwoColumn, component: TwoColumn,
-        children: [
-          { path: "twocol-left", name: TwoColLeft, component: TwoColLeft },
-          { path: "twocol-right", name: TwoColRight, component: TwoColRight },
-        ]
-      },
-      {
-        path: "threecol", name: ThreeColumn, component: ThreeColumn,
-        children: [
-          { path: "threecol-left", name: ThreeColLeft, component: ThreeColLeft },
-          { path: "threecol-middle", name: ThreeColMiddle, component: ThreeColMiddle },
-          { path: "threecol-right", name: ThreeColRight, component: ThreeColRight },
-        ]
-      }
-    ]
+    // children: [
+    //   {
+    //     paht: "twocol", name: TwoColumn, component: TwoColumn,
+    //     children: [
+    //       { path: "twocol-left", name: TwoColLeft, component: TwoColLeft },
+    //       { path: "twocol-right", name: TwoColRight, component: TwoColRight },
+    //     ]
+    //   },
+    //   {
+    //     path: "threecol", name: ThreeColumn, component: ThreeColumn,
+    //     children: [
+    //       { path: "threecol-left", name: ThreeColLeft, component: ThreeColLeft },
+    //       { path: "threecol-middle", name: ThreeColMiddle, component: ThreeColMiddle },
+    //       { path: "threecol-right", name: ThreeColRight, component: ThreeColRight },
+    //     ]
+    //   }
+    // ]
   },
   {
     path: '/about', name: 'About', component: TheAbout

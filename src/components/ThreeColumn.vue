@@ -20,13 +20,13 @@ import FreeMeals from '@/components/FreeMeals.vue';
 <template>
  <div class="flex flex-col md:flex-row" id="threecolumn">
   <div class="w-full min-h-32 h-60 md:h-80">
-   <RouterView :to="threecol-left"/>
+   <slot name= "threeColLeft"></slot>
   </div>
   <div class="w-full min-h-32 h-60 md:h-80">
-   <RouterView :to="threecol-middle"/>
+   <slot name= "threeColMiddle"></slot>
   </div>
   <div class="w-full min-h-32 h-60 md:h-80">
-   <RouterView :to="threecol-right"/>
+   <slot name="threeColRight"></slot>
   </div>
  </div>
 </template>
