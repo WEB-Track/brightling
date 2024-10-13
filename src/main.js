@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import './style.scss'
 import App from '@/App.vue'
-import router from '@/router'
+import router from '@/router/index.js'
 
 import TwoColumn from '@/components/TwoColumn.vue'
 import ThreeColumn from '@/components/ThreeColumn.vue'
@@ -18,18 +18,18 @@ library.add(faHotel, faUtensils)
 
 export default {
  props: [
-  'threeColLeft',
-  'threeColMiddle',
-  'threeColRight',
-  'twoColLeft',
-  'twoColRight',
+  'threeColLeft: Object',
+  'threeColMiddle: Object',
+  'threeColRight: Object',
+  'twoColLeft: Object',
+  'twoColRight: Object',
 
  ]
 }
 
 createApp(App)
  .use(router)
- .component(TwoColumn, ThreeColumn)
+ .component('slot-comp', TwoColumn, ThreeColumn)
  .mount('#app')
 
 

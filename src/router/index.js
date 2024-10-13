@@ -18,7 +18,7 @@ import ThreeColRight from '@/components/FitnessRoom.vue'
 
 const routes = [
   {
-    path: '/:id', name: 'Home', component: TheHome,
+    path: '/', name: 'Home', component: TheHome,
     // children: [
     //   {
     //     paht: "twocol", name: TwoColumn, component: TwoColumn,

@@ -32,21 +32,21 @@
 <template>
   <div class="home" id="thehome">
     <TheHero/>
-    <TwoColumn v-slot="twoColLeft">
+    <slot-comp v-slot:twoColLeft>
       <HomePhotoOne/>
-    </TwoColumn>
-    <TwoColumn v-slot="twoColRight">
+    </slot-comp>
+    <slot-comp v-slot:twoColRight>
       <TheHistory/>
-    </TwoColumn>
-    <ThreeColumn v-slot="threeColLeft">
+    </slot-comp>
+    <slot-comp v-slot:threeColLeft>
       <GreatLoction/>
-    </ThreeColumn>
-    <ThreeColumn v-slot="threeColMiddle">
+    </slot-comp>
+    <slot-comp v-slot:threeColMiddle>
       <FreeMeals/>
-    </ThreeColumn>
-    <ThreeColumn v-slot="threeColRight">
+    </slot-comp>
+    <slot-comp v-slot:threeColRight>
       <FitnessRoom/>
-    </ThreeColumn>
+    </slot-comp>
   </div>
 
 </template>
