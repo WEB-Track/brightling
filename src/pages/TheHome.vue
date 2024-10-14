@@ -17,12 +17,14 @@
 
   
   // export default {
-  //   props: [
+  //   components: [
   //     'threeColLeft',
   //     'threeColMiddle',
   //     'threeColRight',
-  //     'twoColLeft'
-  //     'twoColRight'
+  //     'twoColLeft',
+  //     'twoColRight',
+  //     'TwoColumn',
+  //     'ThreeColumn',
 
   //   ]
   // }
@@ -32,21 +34,25 @@
 <template>
   <div class="home" id="thehome">
     <TheHero/>
-    <slot-comp v-slot:twoColLeft>
-      <HomePhotoOne/>
-    </slot-comp>
-    <slot-comp v-slot:twoColRight>
-      <TheHistory/>
-    </slot-comp>
-    <slot-comp v-slot:threeColLeft>
-      <GreatLoction/>
-    </slot-comp>
-    <slot-comp v-slot:threeColMiddle>
-      <FreeMeals/>
-    </slot-comp>
-    <slot-comp v-slot:threeColRight>
-      <FitnessRoom/>
-    </slot-comp>
+    <TwoColumn>
+      <template #twoColLeft>
+        <HomePhotoOne/>
+      </template>
+      <template #twoColRight>
+        <TheHistory/>
+      </template>
+    </TwoColumn>
+    <ThreeColumn>
+      <template v-slot:threeColLeft>
+        <GreatLoction/>
+      </template>
+      <template v-slot:threeColMiddle>
+        <FreeMeals/>
+      </template>
+      <template v-slot:threeColRight>
+        <FitnessRoom/>
+      </template>
+    </ThreeColumn>
   </div>
 
 </template>

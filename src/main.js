@@ -16,16 +16,16 @@ import { faUtensils } from '@fortawesome/free-solid-svg-icons'
 /* add each imported icon to the library */
 library.add(faHotel, faUtensils)
 
-export default {
- props: [
-  'threeColLeft: Object',
-  'threeColMiddle: Object',
-  'threeColRight: Object',
-  'twoColLeft: Object',
-  'twoColRight: Object',
+// export default {
+//  props: [
+//   'threeColLeft: Object',
+//   'threeColMiddle: Object',
+//   'threeColRight: Object',
+//   'twoColLeft: Object',
+//   'twoColRight: Object',
 
- ]
-}
+//  ]
+// }
 
 createApp(App)
  .use(router)

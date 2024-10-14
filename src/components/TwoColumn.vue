@@ -9,10 +9,10 @@ export default {
 
 <template>
  <div class="flex flex-col md:flex-row" id="twocolumn">
-  <div class="min-h-32 w-full">
+  <div class="twoColLeft min-h-32 w-full">
    <slot name="twoColLeft"></slot>
   </div>
-  <div class="min-h-32 w-full">
+  <div class="twoColRight min-h-32 w-full">
    <slot name="twoColRight"></slot>
   </div>
  </div>
