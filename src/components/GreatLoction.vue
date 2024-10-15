@@ -22,7 +22,7 @@
   padding-left: calc(50vw - 77px);
  
  @media screen and (min-width: 768px) {
-  padding-left: calc(25vw - 30px);
+  padding-left: calc(16vw - 30px);
  }
  }
 </style>
