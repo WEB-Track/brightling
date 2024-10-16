@@ -1,3 +1,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.icon-heroincon_center {
+ padding-left: calc(50vw - 18px);
+
+ @media screen and (min-width: 768px) {
+  padding-left: calc(16vw - 30px);
+ }
+}

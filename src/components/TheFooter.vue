@@ -1,5 +1,5 @@
 <template>
-        <div class="footer" id="thefooter">
+        <div class="footer p-2 border-t-2 border-black" id="thefooter">
         <div class="flex">
           <div class="flex-auto">
             <p class="text-center p-2.5 font-semibold text-xl text-black">
