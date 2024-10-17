@@ -1,6 +1,6 @@
 <template>
- <div class="abouthotel px-4 content-center flex flex-col flex-wrap">
-  <div class="flex flex-col flex-wrap">
+ <div class="abouthotel static px-4 content-center flex flex-col flex-wrap abouthotel-text">
+  <div class="flex flex-col flex-wrap justify-center text-amber-950">
    <h1 class="text-3xl sm:text-4xl font-semibold pb-5">
     <span class="text-amber-500">About</span> Brightling Hotel
    </h1>

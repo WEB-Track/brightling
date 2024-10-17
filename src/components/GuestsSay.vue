@@ -1,5 +1,9 @@
+<script setup>
+import GuestsSayCardSmall from './GuestsSayCardSmall.vue';
+</script>
+
 <template>
  <div>
-  What Guests Say
+  <GuestsSayCardSmall/>
  </div>
 </template>

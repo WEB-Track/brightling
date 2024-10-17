@@ -7,7 +7,7 @@ import TwoColumn from '@/components/TwoColumn.vue';
 
 <template>
  <div class="theabout" id="theabout">
-  <div class="bg-amber-100">
+  <div class="bg-gray-100  static twocolumn_height">
    <TwoColumn>
     <template v-slot:twoColLeft>
      <AboutHotel/>
