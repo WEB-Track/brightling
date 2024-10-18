@@ -1,7 +1,7 @@
 <script setup>
 import AboutHotel from '@/components/AboutHotel.vue';
 import AboutPhoto from '@/components/AboutPhoto.vue';
-import GuestsSay from '@/components/GuestsSay.vue';
+import TheTestimony from '@/components/TheTestimony.vue';
 import TwoColumn from '@/components/TwoColumn.vue';
 </script>
 
@@ -17,6 +17,6 @@ import TwoColumn from '@/components/TwoColumn.vue';
     </template>
    </TwoColumn>
   </div>
-  <GuestsSay/>
+  <TheTestimony/>
  </div>
 </template>
