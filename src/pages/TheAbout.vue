@@ -6,7 +6,7 @@ import TwoColumn from '@/components/TwoColumn.vue';
 </script>
 
 <template>
- <div class="theabout" id="theabout">
+ <section class="theabout" id="theabout">
   <div class="bg-gray-100  static twocolumn_height">
    <TwoColumn>
     <template v-slot:twoColLeft>
@@ -18,5 +18,5 @@ import TwoColumn from '@/components/TwoColumn.vue';
    </TwoColumn>
   </div>
   <TheTestimony/>
- </div>
+ </section>
 </template>
