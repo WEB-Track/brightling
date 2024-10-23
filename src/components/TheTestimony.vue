@@ -1,4 +1,5 @@
 <script setup>
+import Slider from './Slider.vue';
 import TestimonyCard from './TestimonyCard.vue';
 import TheCarousel from './TheCarousel.vue';
 </script>
@@ -9,7 +10,8 @@ import TheCarousel from './TheCarousel.vue';
    <TestimonyCard/>
   </div>
   <div id="testimonycarousel" class="cardlarge md:hidden">
-    <TheCarousel/>
+    <!-- <TheCarousel/> -->
+    <Slider/>
   </div>
  </section>
 </template>

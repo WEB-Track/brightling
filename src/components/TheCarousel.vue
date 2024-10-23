@@ -15,8 +15,8 @@
 <template>
  <section id="thecarousel ">
   <TransitionGroup tag="div" class="relative">
-   <div v-for="guestSay in guestsSay"
-   @enter-cancelled="onEnterCancelled" 
+   <div v-for="guestSay in guestsStay"
+   <!-- @enter-cancelled="onEnterCancelled"  -->
    :key="guestSay.id"
    class="">
     <div class="w-full h-auto">

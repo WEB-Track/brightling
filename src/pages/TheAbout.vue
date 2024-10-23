@@ -1,6 +1,7 @@
 <script setup>
 import AboutHotel from '@/components/AboutHotel.vue';
 import AboutPhoto from '@/components/AboutPhoto.vue';
+import Slider from '@/components/Slider.vue';
 import TheTestimony from '@/components/TheTestimony.vue';
 import TwoColumn from '@/components/TwoColumn.vue';
 </script>
@@ -18,5 +19,6 @@ import TwoColumn from '@/components/TwoColumn.vue';
    </TwoColumn>
   </div>
   <TheTestimony/>
+  <!-- <Slider/> -->
  </section>
 </template>
