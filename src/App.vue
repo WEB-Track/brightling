@@ -1,18 +1,19 @@
 <script>
 import TheMenu from '@/components/Menu/TheMenu.vue'
 import TheFooter from './components/TheFooter.vue';
+import NotFound from './pages/NotFound.vue';
 
 export default{
-  components:{ TheMenu, TheFooter},
+  components:{ TheMenu, TheFooter, NotFound,}
 }
 </script>
-
 <template>
-  <div class="app-main" id="theapp">
+  <section class="app-main" id="theapp">
     <TheMenu></TheMenu>
     <RouterView></RouterView>
     <TheFooter></TheFooter>
-  </div>
+    <NotFound></NotFound>
+  </section>
 </template>
 
 <style lang="scss">

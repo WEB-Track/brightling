@@ -8,6 +8,7 @@ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
  import {faPause} from '@fortawesome/free-solid-svg-icons'
  
 const guests = sourceData.guests
+const scrnWidth = window.innerWidth
 
 // Carousel Control Variables
 const currentSliderIndex = ref(0);
@@ -42,8 +43,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-
-    <div class="carousel flex">
+    <section class="carousel flex">
         <div class="flex mx-auto justify-center relative w-full h-[85vh] m-auto">
             <template v-for="(guest, index) in guests" :key="index">
                 <TransitionGroup name="fade" class="flex" v-if="index === currentSliderIndex">
@@ -77,18 +77,32 @@ onUnmounted(() => {
             <FontAwesomeIcon :icon="faPause" class="fa-solid absolute rounded-[50%] bg-amber-950 bg-opacity-15 bottom-3 text-3xl  p-2 m-2 cursor-pointer shadow-2xl text-gray-200 z-50"
                 @click="stopSlider" v-else="isTimerPaused"/>
         </div>
-    </div>
+    </section>
 </template>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-    transition: opacity 1s, transform 2s;
+/* .fade-enter-active */
+/* .fade-leave-active {
+    transition: opacity 1s, transform 1s;
+} */
+
+.fade-enter-active {
+   transition: opacity 1s 
 }
 
-.fade-enter-from,
+/* .fade-enter-from{
+    right: p +"px";
+    transition: 2s
+} */
+
+/* .fade-leave-to{
+    right: -(p) +"px";
+    transition: 2s
+} */
+
+/* .fade-enter-from,
 .fade-leave-to {
     opacity: 0;
     transform: translateX(0);
-}
+} */
 </style>

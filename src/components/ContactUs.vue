@@ -1,5 +1,5 @@
 <template>
- <div class="p-3 sm:px-7 sm:py-7 bg-amber-200">
+ <section class="p-3 sm:px-7 sm:py-7 bg-amber-200">
   <form action="" method="post" autocomplete="on">
    <h1 id="contactus" class="text-3xl font-semibold text-left text-amber-500 pb-6 sm:text-4xl">Contact <span class="text-black">Us</span>
    </h1>
@@ -42,7 +42,7 @@
     </div>
    </div>
   </form>
- </div>
+ </section>
 </template>
 
 <style lang="scss">
